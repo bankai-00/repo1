@@ -1,30 +1,28 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Neonfolio - Modern Portfolio Platform with Neon Design</title>
-  <meta name="description" content="Neonfolio - A modern black-neon portfolio platform for creatives, designers, and developers. Showcase your work with stunning glassmorphism design and neon aesthetics.">
-  <meta name="keywords" content="portfolio, platform, neon design, creative portfolio, web design, showcase projects, portfolio website, neonfolio">
+  <title>Showcase - Neonfolio</title>
+  <meta name="description" content="Browse and manage your portfolio profile on Neonfolio. View creative profiles and manage your own portfolio on Neonfolio.">
+  <meta name="keywords" content="profile showcase, portfolio profiles, neonfolio profiles, creative portfolio">
   <meta name="author" content="Ashutosh Sharma">
   <meta name="theme-color" content="#050507">
-  <meta property="og:title" content="Neonfolio - Modern Portfolio Platform">
-  <meta property="og:description" content="A modern black-neon portfolio platform for creatives, designers, and developers. Showcase stunning projects with glassmorphism design.">
+  <meta property="og:title" content="Showcase - Neonfolio">
+  <meta property="og:description" content="Browse creative profiles and manage your own portfolio on Neonfolio.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://neonfolio.com">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Neonfolio - Modern Portfolio Platform">
-  <meta name="twitter:description" content="Showcase your work with stunning neon-themed portfolio.">
-  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-  <link rel="canonical" href="https://neonfolio.com/">
-  <link rel="stylesheet" href="../css/index.css">
+  <meta property="og:url" content="https://neonfolio.com/pages/showcase.html">
+  <meta name="twitter:card" content="summary">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://neonfolio.com/pages/showcase.html">
+  <link rel="stylesheet" href="../../css/showcase.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
   <!-- HEADER / NAVIGATION -->
   <header class="site-header" role="banner">
     <div class="header-inner">
-      <a href="index.html" class="logo" aria-label="Neonfolio Home">
+      <a href="../index.html" class="logo" aria-label="Neonfolio Home">
         <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-right: 8px;">
           <defs>
             <linearGradient id="logo-grad" x1="0" x2="1">
@@ -38,11 +36,11 @@
       </a>
 
       <nav class="main-nav" role="navigation" aria-label="Main Navigation">
-        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list" aria-label="Toggle navigation">☰</button>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list" aria-label="Toggle navigation">â˜°</button>
         <ul id="nav-list" class="nav-list" role="menubar">
-          <li role="none"><a role="menuitem" href="index.html" class="active">Home</a></li>
+          <li role="none"><a role="menuitem" href="../index.html">Home</a></li>
           <li role="none"><a role="menuitem" href="about.html">About</a></li>
-          <li role="none"><a role="menuitem" href="showcase.html">Showcase</a></li>
+          <li role="none"><a role="menuitem" href="showcase.html" class="active">Showcase</a></li>
           <li role="none"><a role="menuitem" href="contact.html">Contact</a></li>
           <li role="none"><a role="menuitem" href="login.html">Login</a></li>
           <li role="none"><a class="btn btn-primary" href="register.html">Register</a></li>
@@ -53,56 +51,66 @@
 
   <!-- MAIN CONTENT -->
   <main role="main">
-
-    <!-- HERO SECTION -->
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-inner">
-        <h1 id="hero-title" class="hero-title">Showcase Your Work in Stunning Neon Style</h1>
-        <p class="hero-lead">Create, edit, and share stunning project portfolios with a clean, glowing design — crafted for creatives and makers.</p>
-        
-        <div class="hero-cta">
-          <a href="register.html" class="btn btn-primary">Get Started</a>
-          <a href="login.html" class="btn btn-outline">Login</a>
-        </div>
-
-        <p class="hero-note">Dark neon theme • Glassmorphism • Mobile-first responsive design</p>
-      </div>
-    </section>
-
-    <!-- FEATURES TEASER -->
-    <section id="features" class="container">
-      <h2 class="section-title">Powerful Features</h2>
-      <p class="section-subtitle">Everything you need to showcase your best work</p>
+    <section class="container">
+      <h1 class="section-title">Showcase</h1>
+      <p class="section-subtitle">Explore beautiful portfolio projects from our community</p>
       
-      <div class="grid-3">
-        <div class="card">
-          <h3>✎ Create & Manage</h3>
-          <p>Build your portfolio with ease. Add, edit, and delete projects with image previews and tags.</p>
+      <div class="showcase-grid">
+        <div class="project-card">
+          <div class="project-thumb">ðŸŽ¨</div>
+          <div class="project-info">
+            <h3>Creative Design Portfolio</h3>
+            <p>A stunning collection of UI/UX designs and branding work.</p>
+            <a href="#" class="btn btn-secondary">View Project</a>
+          </div>
         </div>
-        <div class="card">
-          <h3>🔗 Shareable Links</h3>
-          <p>Publish projects and profiles with friendly URLs. Share your work across any platform.</p>
+
+        <div class="project-card">
+          <div class="project-thumb">ðŸ’»</div>
+          <div class="project-info">
+            <h3>Web Development Projects</h3>
+            <p>Full-stack web applications and responsive websites.</p>
+            <a href="#" class="btn btn-secondary">View Project</a>
+          </div>
         </div>
-        <div class="card">
-          <h3>🎨 Modern Neon UI</h3>
-          <p>Experience glassmorphism, neon glows, and smooth micro-interactions across all devices.</p>
+
+        <div class="project-card">
+          <div class="project-thumb">ðŸ“¸</div>
+          <div class="project-info">
+            <h3>Photography Portfolio</h3>
+            <p>Professional photography and visual storytelling.</p>
+            <a href="#" class="btn btn-secondary">View Project</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-thumb">ðŸŽ¬</div>
+          <div class="project-info">
+            <h3>Video Production</h3>
+            <p>Cinematic videos and motion graphics work.</p>
+            <a href="#" class="btn btn-secondary">View Project</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-thumb">âœï¸</div>
+          <div class="project-info">
+            <h3>Content & Writing</h3>
+            <p>Blog posts, copywriting, and content creation.</p>
+            <a href="#" class="btn btn-secondary">View Project</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-thumb">ðŸš€</div>
+          <div class="project-info">
+            <h3>Startup Projects</h3>
+            <p>Innovative projects and entrepreneurial ventures.</p>
+            <a href="#" class="btn btn-secondary">View Project</a>
+          </div>
         </div>
       </div>
     </section>
-
-    <!-- CTA TO EXPLORE -->
-    <section class="container text-center">
-      <div class="neon-underline" style="margin-left: auto; margin-right: auto;"></div>
-      <h2>Ready to get started?</h2>
-      <p class="muted" style="margin-bottom: 20px;">Explore more of Neonfolio and see what you can create.</p>
-      
-      <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
-        <a href="showcase.html" class="btn btn-secondary">View Showcase</a>
-        <a href="about.html" class="btn btn-secondary">Learn About</a>
-        <a href="contact.html" class="btn btn-secondary">Get in Touch</a>
-      </div>
-    </section>
-
   </main>
 
   <!-- FOOTER -->
@@ -111,7 +119,7 @@
       <div class="footer-info">
         <p style="font-weight: 600; color: var(--text-primary);">Neonfolio</p>
         <p class="muted">A modern portfolio platform with a neon aesthetic.</p>
-        <p class="muted">&copy; 2025 — All rights reserved.</p>
+        <p class="muted">&copy; 2025 â€” All rights reserved.</p>
       </div>
       <div style="justify-self: end;">
         <div class="socials">
@@ -129,7 +137,7 @@
     </div>
   </footer>
 
-  <!-- SCRIPT FOR NAV TOGGLE -->
+  <!-- NAV TOGGLE SCRIPT -->
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       const navToggle = document.querySelector('.nav-toggle');
@@ -143,27 +151,16 @@
         });
       }
 
-      // Close menu on link click
       document.querySelectorAll('.nav-list a').forEach(link => {
         link.addEventListener('click', function() {
           navToggle.setAttribute('aria-expanded', 'false');
           navList.classList.remove('open');
         });
       });
-
-      // Highlight active nav item
-      const currentPath = window.location.pathname;
-      document.querySelectorAll('.nav-list a').forEach(link => {
-        if (link.getAttribute('href') === currentPath.split('/').pop() || 
-            (currentPath.includes('index') && link.getAttribute('href') === 'index.html')) {
-          link.classList.add('active');
-        } else {
-          link.classList.remove('active');
-        }
-      });
     });
   </script>
-  <script src="../js/nav-utils.js"></script>
-  <script src="../js/index.js"></script>
+  <script src="../../js/nav-utils.js"></script>
+  <script src="../../js/showcase.js"></script>
 </body>
 </html>
+
